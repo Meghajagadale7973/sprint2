@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/houseshopping/databases/RealEstateDb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:RealEstateDbConection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
